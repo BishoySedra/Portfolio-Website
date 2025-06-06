@@ -1,157 +1,108 @@
-const logotext = "JOHN";
+const logotext = "Bishoy";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Bishoy Sedra Portfolio",
+    description: "I’m Bishoy Sedra, a Junior Software Engineer specializing in backend development, microservices, and scalable API solutions.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Bishoy Sedra",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I build scalable APIs",
+        second: "I develop microservices with Docker & Kubernetes",
+        third: "I craft secure backend systems",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Junior Software Engineer passionate about backend architecture, real-time apps, and clean code. Experienced in NestJS, Express, Docker, and MongoDB.",
+    your_img_url: "https://github.com/user-attachments/assets/9786d4ad-b727-41ae-9681-a592057143cb", // Replace if you want a personal image
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about myself",
+    aboutme: "I'm a Junior Software Engineer from Cairo with a strong background in backend development, object-oriented programming, and scalable system design. I’ve led backend projects, contributed to open-source, and love solving complex engineering problems with clean architecture and modern tools.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+
+const worktimeline = [
+    {
+        jobtitle: "Backend Mentor",
+        where: "ConnectX",
+        date: "Oct 2023 – Jul 2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Team Leader - Web Dev",
+        where: "MSP Tech Club, ASU",
+        date: "Oct 2023 – Jul 2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Programming YouTuber",
+        where: "YouTube Channel",
+        date: "Sep 2024 – Present",
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
+const skills = [
+    { name: "Node.js", value: 90 },
+    { name: "NestJS", value: 85 },
+    { name: "TypeScript", value: 80 },
+    { name: "MongoDB & MySQL", value: 80 },
+    { name: "Docker & Kubernetes", value: 75 },
+    { name: "Express.js", value: 80 },
+];
+
+const services = [
+    {
+        title: "Backend Development",
+        description: "Building secure and scalable backend systems using Node.js, NestJS, and Express with clean code practices.",
     },
     {
-        name: "Djano",
-        value: 85,
+        title: "API Design & Integration",
+        description: "Designing RESTful APIs with proper authentication, authorization, and documentation using Swagger/Postman.",
     },
     {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
+        title: "Microservices & Deployment",
+        description: "Developing and deploying containerized microservices with Docker and Kubernetes for fault-tolerant applications.",
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const dataportfolio = [
+    {
+        img: "https://github.com/BishoySedra/Instapay_microservices/blob/main/client/src/assets/AutoInsight.png?raw=true",
+        description: "Instapay – Microservices payment platform using Docker and Kubernetes.",
+        link: "https://github.com/BishoySedra/Instapay_microservices",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        img: "https://github.com/user-attachments/assets/3c5f29b9-accb-4503-845a-fbabfc661794",
+        description: "Document Manager API – JWT-authenticated API with role-based access and Cloudinary integration.",
+        link: "https://github.com/BishoySedra/Document_Manager_API",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
-
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://github.com/BishoySedra/ChatSphere/raw/main/Frontend/.imgs/logo.png",
+        description: "ChatSphere – MERN-based real-time chat app with JWT, Socket.io, and media sharing.",
+        link: "https://github.com/BishoySedra/ChatSphere",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://camo.githubusercontent.com/c05cb7f735347faef4b8c005778761c82e3b25cf1bdda90e78be624feae19923/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f647669377675756a762f696d6167652f75706c6f61642f76313732343831323332312f617771726c666c7732673431646c7766307a646f2e706e67",
+        description: "FIRM Creatives – Portfolio sharing platform for creatives with authentication and project management.",
+        link: "https://github.com/BishoySedra/FIRM-creatives",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "bishoysedraa@gmail.com",
+    YOUR_FONE: "+20 128 043 2898",
+    description: "Let’s connect to discuss backend architecture, scalable systems, or your next project idea!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_xibd6es", // Replace with actual EmailJS info
+    YOUR_TEMPLATE_ID: "template_jbgq42n",
+    YOUR_USER_ID: "yO0SYrFYXxXSqsxj1",
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/BishoySedra",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    linkedin: "https://www.linkedin.com/in/bishoy-sedra/",
+    youtube: "https://www.youtube.com/@BishoySedra",
 };
+
 export {
     meta,
     dataabout,
