@@ -64,26 +64,27 @@ const services = [
 
 const dataportfolio = [
     {
-        img: "https://github.com/BishoySedra/Instapay_microservices/blob/main/client/src/assets/AutoInsight.png?raw=true",
-        description: "Instapay – Microservices payment platform using Docker and Kubernetes.",
-        link: "https://github.com/user-attachments/assets/b79ee2f8-1c15-4703-b062-131d29d78248",
+        img: "https://github.com/user-attachments/assets/66883ca4-eb9f-4e44-b3d6-a00b8c41a659",
+        description: "AutoInsight API – Server-side API for collaborative data analysis. Built with Express.js and MongoDB, featuring OAuth login, data cleaning, insight generation, and AI chatbot.",
+        link: "https://autoinsight-api-r8nz.onrender.com/docs"
     },
     {
-        img: "https://github.com/user-attachments/assets/3c5f29b9-accb-4503-845a-fbabfc661794",
-        description: "Document Manager API – JWT-authenticated API with role-based access and Cloudinary integration.",
+        img: "https://github.com/user-attachments/assets/3039a02e-7216-4efc-8f7b-1e6e09c087fd",
+        description: "Instapay – Server-side microservices API for a payment platform using Docker & Kubernetes. Includes services for users, transactions, reporting, and fault-tolerant communication.",
+        link: "https://mini-instapay-api.onrender.com/docs",
+    },
+    {
+        img: "https://github.com/user-attachments/assets/6ff38d36-e606-4424-ad09-fec04905f86b",
+        description: "Document Manager API – Secure backend API built with NestJS and Prisma. Supports JWT-based authentication, role-based access control, and file uploads via Cloudinary.",
         link: "https://document-manager-api.onrender.com/docs",
     },
     {
-        img: "https://github.com/BishoySedra/ChatSphere/raw/main/Frontend/.imgs/logo.png",
-        description: "ChatSphere – MERN-based real-time chat app with JWT, Socket.io, and media sharing.",
-        link: "https://github.com/user-attachments/assets/f481b8bd-0aa9-4395-a28d-683b6eb71449",
-    },
-    {
-        img: "https://camo.githubusercontent.com/c05cb7f735347faef4b8c005778761c82e3b25cf1bdda90e78be624feae19923/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f647669377675756a762f696d6167652f75706c6f61642f76313732343831323332312f617771726c666c7732673431646c7766307a646f2e706e67",
-        description: "FIRM Creatives – Portfolio sharing platform for creatives with authentication and project management.",
-        link: "https://github.com/BishoySedra/FIRM-creatives",
-    },
+        img: "https://github.com/user-attachments/assets/09845146-b03d-4386-a973-f1ef801b4dcd",
+        description: "ChatSphere – Server-side API for a real-time MERN chat application. Implements JWT, Socket.io for live messaging, and media upload using Cloudinary.",
+        link: "https://chatsphere-api.onrender.com/docs",
+    }
 ];
+
 
 const contactConfig = {
     YOUR_EMAIL: "bishoysedraa@gmail.com",
