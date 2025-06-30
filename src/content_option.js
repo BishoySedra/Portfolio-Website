@@ -64,7 +64,7 @@ const services = [
 
 const dataportfolio = [
     {
-        img: "https://github.com/user-attachments/assets/66883ca4-eb9f-4e44-b3d6-a00b8c41a659",
+        img: "https://logowik.com/content/uploads/images/swagger6360.jpg",
         description: "AutoInsight API – Server-side API for collaborative data analysis. Built with Express.js and MongoDB, featuring OAuth login, data cleaning, insight generation, and AI chatbot.",
         link: "https://autoinsight-api-r8nz.onrender.com/docs"
     },
