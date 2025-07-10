@@ -12,7 +12,7 @@ const introdata = {
         third: "I craft secure backend systems",
     },
     description: "Junior Software Engineer passionate about backend architecture, real-time apps, and clean code. Experienced in NestJS, Express, Docker, and MongoDB.",
-    your_img_url: "https://github.com/user-attachments/assets/9786d4ad-b727-41ae-9681-a592057143cb", // Replace if you want a personal image
+    your_img_url: "https://github.com/user-attachments/assets/3241e713-51e2-41d2-84bc-58f0c59a8a9f", // Replace if you want a personal image
 };
 
 const dataabout = {
