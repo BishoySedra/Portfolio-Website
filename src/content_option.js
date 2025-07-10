@@ -64,22 +64,22 @@ const services = [
 
 const dataportfolio = [
     {
-        img: "https://github.com/user-attachments/assets/f3c84ff6-c679-4843-aa04-52593ccad565",
+        img: "https://github.com/user-attachments/assets/d9f85481-3f03-4329-86ad-0a7cb5642714",
         description: "AutoInsight API – Server-side API for collaborative data analysis. Built with Express.js and MongoDB, featuring OAuth login, data cleaning, insight generation, and AI chatbot.",
         link: "https://autoinsight-api-r8nz.onrender.com/docs"
     },
     {
-        img: "https://github.com/user-attachments/assets/2580b267-63cd-47ff-9a40-1bd8d5c3d2a7",
+        img: "https://github.com/user-attachments/assets/39f31c99-259b-4615-aeaa-2aea3fa3eda5",
         description: "Instapay – Server-side microservices API for a payment platform using Docker & Kubernetes. Includes services for users, transactions, reporting, and fault-tolerant communication.",
         link: "https://mini-instapay-api.onrender.com/docs",
     },
     {
-        img: "https://github.com/user-attachments/assets/5a1daf47-71b5-449e-89a4-8901e27bbfd9",
+        img: "https://github.com/user-attachments/assets/3e605fdd-b53a-444b-94e5-8b6f6051d039",
         description: "Document Manager API – Secure backend API built with NestJS and Prisma. Supports JWT-based authentication, role-based access control, and file uploads via Cloudinary.",
         link: "https://document-manager-api.onrender.com/docs",
     },
     {
-        img: "https://github.com/user-attachments/assets/e8cf5dd0-1c3e-4344-9dba-9c068b0329e7",
+        img: "https://github.com/user-attachments/assets/06d528ee-6844-4c44-9ee5-220a7852e213",
         description: "ChatSphere – Server-side API for a real-time MERN chat application. Implements JWT, Socket.io for live messaging, and media upload using Cloudinary.",
         link: "https://chatsphere-api.onrender.com/docs",
     }
