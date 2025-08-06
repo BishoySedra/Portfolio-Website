@@ -63,16 +63,16 @@ const services = [
 ];
 
 const dataportfolio = [
-    {
-        img: "https://github.com/user-attachments/assets/d9f85481-3f03-4329-86ad-0a7cb5642714",
-        description: "AutoInsight API – Server-side API for collaborative data analysis. Built with Express.js and MongoDB, featuring OAuth login, data cleaning, insight generation, and AI chatbot.",
-        link: "https://autoinsight-api-r8nz.onrender.com/docs"
-    },
-    {
-        img: "https://github.com/user-attachments/assets/39f31c99-259b-4615-aeaa-2aea3fa3eda5",
-        description: "Instapay – Server-side microservices API for a payment platform using Docker & Kubernetes. Includes services for users, transactions, reporting, and fault-tolerant communication.",
-        link: "https://mini-instapay-api.onrender.com/docs",
-    },
+    // {
+    //     img: "https://github.com/user-attachments/assets/d9f85481-3f03-4329-86ad-0a7cb5642714",
+    //     description: "AutoInsight API – Server-side API for collaborative data analysis. Built with Express.js and MongoDB, featuring OAuth login, data cleaning, insight generation, and AI chatbot.",
+    //     link: "https://autoinsight-api-r8nz.onrender.com/docs"
+    // },
+    // {
+    //     img: "https://github.com/user-attachments/assets/39f31c99-259b-4615-aeaa-2aea3fa3eda5",
+    //     description: "Instapay – Server-side microservices API for a payment platform using Docker & Kubernetes. Includes services for users, transactions, reporting, and fault-tolerant communication.",
+    //     link: "https://mini-instapay-api.onrender.com/docs",
+    // },
     {
         img: "https://github.com/user-attachments/assets/3e605fdd-b53a-444b-94e5-8b6f6051d039",
         description: "Document Manager API – Secure backend API built with NestJS and Prisma. Supports JWT-based authentication, role-based access control, and file uploads via Cloudinary.",
